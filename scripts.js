@@ -1,10 +1,8 @@
 
-function changeImage(image) {
+function changeColor(cor, image) {
     const iphoneImg = document.querySelector("#iphone-img")
     iphoneImg.src = image;
-}
-
-function changeColor(cor) {
+    
     const divColor = document.querySelector("#colorBackground")
     divColor.style.backgroundColor = cor;
 }
